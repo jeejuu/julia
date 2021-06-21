@@ -1,0 +1,152 @@
+@import url ('https://fonts.googleapis.com/css2? family = Montserrat: wght @ 100 & display = swap'); 
+body
+{
+    margin: 80px 80px;
+    background-color: black;
+    
+    
+}
+.contenu
+{
+    padding: 20px 30px;
+    background-image: url( DJULIA.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.menu
+{
+    font-family: 'Montserrat',sans-serif ;
+    padding-top: 10px;
+}
+.menu img
+{
+    width: 70px;
+    height: 70px;
+    margin-left: 120px;
+}
+nav .liste a
+{
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+nav .liste a:hover
+{
+    background: #726e6e;
+}
+
+nav .liste
+{
+    padding-top: 20px;
+}
+
+nav .langue
+{
+    display: flex;
+    padding-top: 20px;
+    margin-right: 50px;
+}
+
+nav .langue .EN a
+{
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 10px;
+
+}
+nav .langue .RU a
+{
+    text-decoration: none;
+    color: #7f7e7e;
+    margin-right: 10px;
+
+}
+.info .reseaux .ligne1 
+{
+    border-left: 1px solid white;
+    height: 170px;
+    margin-left: 150px;
+    margin-top: 10px;
+
+}
+
+.info .reseaux .icone
+{
+    color: white;
+    font-size: 30px;
+    list-style-type: none;
+    
+} 
+  
+.info .reseaux .icone ul
+{
+    list-style-type: none;
+    margin-left: 95px;
+}
+
+.info .reseaux .icone li
+{
+    padding-top:5px;
+}
+.info .reseaux .ligne2 
+{
+    border-left: 1px solid white;
+    height: 170px;
+    margin-left: 150px;
+    margin-top: 10px;
+
+}
+.info .reseaux .icone1
+{
+    color: white;
+    font-size: 30px;
+    list-style-type: none;
+    
+} 
+  
+.info .reseaux .texte
+{
+    color: white;
+    margin-left: 140px;
+}
+.info
+{
+    display: flex;
+}
+.info .reseaux .texte .texte1
+{
+    margin-left: -10px;
+}
+.info .description
+{
+    display: inline;
+    color: white;
+    font-style: 'Shadows Into Light', cursive;
+    margin-left: 5%;
+    margin-top: 110px;
+    font-size: 75px;
+}
+.info .description .by
+{
+    margin-left: 25%;
+}
+
+.info .description .passion
+{
+       font-size: 12px;
+       padding-top: 50px;
+}
+
+
+/*
+
+*/
